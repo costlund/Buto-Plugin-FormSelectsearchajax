@@ -1,0 +1,61 @@
+-
+  type: div
+  attribute:
+    id: rs:id_modal
+    role: dialog
+    class: 'modal fade modal-fullscreen show'
+    aria-modal: 'true'
+  innerHTML:
+    -
+      type: div
+      attribute:
+        class: modal-dialog modal-xl
+        id: rs:id_dialog
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: modal-content
+            id: rs:id_content
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: modal-header
+              innerHTML:
+                -
+                  type: h4
+                  attribute:
+                    class: modal-title
+                  innerHTML: 'Select'
+                -
+                  type: button
+                  attribute:
+                    type: button
+                    class: close
+                    style: 'margin-left:0px'
+                    data-dismiss: modal
+                    id: rs:id_modal_dismiss
+                  innerHTML:
+                    -
+                      type: img
+                      attribute:
+                        src: /plugin/icons/octicons/build/svg/x.svg
+            -
+              type: div
+              attribute:
+                class: modal-body
+                id: rs:id_body
+              innerHTML:
+                -
+                  type: div
+                  innerHTML: rs:form
+                -
+                  type: div
+                  innerHTML: rs:table
+            -
+              type: div
+              attribute:
+                class: modal-footer
+                id: rs:id_footer
+                style: 'display:block'

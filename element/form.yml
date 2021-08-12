@@ -1,0 +1,11 @@
+-
+  type: form
+  settings:
+    disabled: rs:form_hide
+  attribute:
+    action: rs:url
+    id: rs:id_form
+    class: form-inline alert alert-light
+    style:
+      margin-bottom: 20px
+  innerHTML: rs:form_input

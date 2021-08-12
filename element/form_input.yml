@@ -1,0 +1,21 @@
+-
+  type: div
+  attribute:
+    class: form-group col-sm-4
+  innerHTML:
+    -
+      type: input
+      attribute:
+        name: sw
+        class: form-control
+-
+  type: div
+  attribute:
+    class: form-group col-sm-4
+  innerHTML:
+    -
+      type: button
+      innerHTML: Search
+      attribute:
+        onclick: PluginFormSelectsearchajax.submit();return false;
+        class: btn btn-primary
