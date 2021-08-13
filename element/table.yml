@@ -1,4 +1,8 @@
 -
+  type: style
+  innerHTML: |
+    .dataTables_processing{background:red;top:1% !important;}
+-
   type: widget
   data:
     plugin: wf/table
@@ -16,6 +20,7 @@
             - asc
         json:
           searching: rs:form_hide
+          processing: true
 -
   type: script
   innerHTML: rs:script_row_click

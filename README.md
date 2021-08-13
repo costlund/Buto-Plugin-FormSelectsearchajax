@@ -29,6 +29,11 @@ Check out method set_table_data in plugin datatable/datatable_1_10_18 how to ren
 ```
     url: '/path_to/json'
 ```
+Title (optional). 
+Select is default.
+```
+    title: 'Select an item'
+```
 Add params if needed.
 ```
     url: '/path_to/json?sw=_any_value_'

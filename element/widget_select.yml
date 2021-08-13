@@ -27,7 +27,7 @@
                   type: h4
                   attribute:
                     class: modal-title
-                  innerHTML: 'Select'
+                  innerHTML: rs:title
                 -
                   type: button
                   attribute:

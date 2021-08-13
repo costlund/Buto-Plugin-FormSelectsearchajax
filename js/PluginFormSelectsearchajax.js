@@ -43,7 +43,6 @@ function PluginFormSelectsearchajax(){
     var elements = $('#modal_form_'+this.data.id).find("input");
     for(var i=0; i<elements.length; i++){
       if(elements[i].getAttribute('type')=='checkbox'){
-        console.log(elements[i].checked);
         if(elements[i].checked){
           form_action += elements[i].getAttribute('name')+'=on&'
         }else{
@@ -58,7 +57,7 @@ function PluginFormSelectsearchajax(){
   this.run_url = function(url){
     var table = $('#modal_table_'+this.data.id).DataTable();
     table.ajax.url(url);
-    table.ajax.reload();    
+    table.ajax.reload();
   }
 }
 var PluginFormSelectsearchajax = new PluginFormSelectsearchajax();

@@ -44,6 +44,7 @@ class PluginFormSelectsearchajax{
     $data->set('row', $d->get('data/row'));
     $data->set('field', $d->get('data/field'));
     $data->set('form_hide', $d->get('data/form_hide'));
+    $data->set('title', $d->get('data/title'));
     /**
      * widget
      */
@@ -54,6 +55,12 @@ class PluginFormSelectsearchajax{
     if(!$data->get('form_input')){
       $form_input = new PluginWfYml(__DIR__.'/element/form_input.yml');
       $data->set('form_input', $form_input->get());
+    }
+    /**
+     * modal_title
+     */
+    if(!$data->get('title')){
+      $data->set('title', 'Select');
     }
     /**
      * script row click
