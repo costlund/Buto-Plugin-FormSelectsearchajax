@@ -1,5 +1,9 @@
-version: 1.1.0
+version: 1.2.0
 history:
+  1.2.0:
+    date: '2021-08-18'
+    title: 'Clear'
+    description: 'Table will be cleared on click if no url is provided.'
   1.1.0:
     date: '2021-08-13'
     title: 'Title, Processing'

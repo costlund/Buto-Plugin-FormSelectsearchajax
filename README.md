@@ -83,7 +83,8 @@ Instead the form an table filter input is used.
 ```
 
 ## Javascript
-How to transform an input element to a clickable span. Param url is optional if one want to load the list on click.
+How to transform an input element to a clickable span. 
+Param url is optional if one want to load the list on click. Otherwice table will be cleared.
 ```
 data = {};
 data.id = '_my_input_element_id_';

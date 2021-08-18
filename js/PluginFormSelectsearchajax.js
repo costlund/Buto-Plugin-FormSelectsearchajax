@@ -31,6 +31,9 @@ function PluginFormSelectsearchajax(){
     $('#modal_'+this.data.id).modal('show');
     if(this.data.url){
       this.run_url(this.data.url);
+    }else{
+      var table = $('#modal_table_'+this.data.id).DataTable();
+      table.clear().draw();
     }
   }
   this.submit = function(){
