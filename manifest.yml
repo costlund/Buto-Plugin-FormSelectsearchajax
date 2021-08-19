@@ -1,5 +1,9 @@
-version: 1.2.0
+version: 1.2.1
 history:
+  1.2.1:
+    date: '2021-08-19'
+    title: 'Processing'
+    description: 'Remove class modification for processing card. It was moved to plugin datatable/datatable_1_10_18.'
   1.2.0:
     date: '2021-08-18'
     title: 'Clear'
