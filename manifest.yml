@@ -1,12 +1,16 @@
-version: 1.2.1
+version: 1.2.2
 history:
+  1.2.2:
+    date: '2023-04-14'
+    title: Versions
+    description: 'Versions update.'
   1.2.1:
     date: '2021-08-19'
-    title: 'Processing'
+    title: Processing
     description: 'Remove class modification for processing card. It was moved to plugin datatable/datatable_1_10_18.'
   1.2.0:
     date: '2021-08-18'
-    title: 'Clear'
+    title: Clear
     description: 'Table will be cleared on click if no url is provided.'
   1.1.0:
     date: '2021-08-13'
@@ -19,7 +23,7 @@ history:
 plugin:
   -
     name: wf/embed
-    version: 1.1.1
+    version: 1.2.0
 sys:
   -
     name: mercury
