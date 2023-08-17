@@ -66,9 +66,9 @@ class PluginFormSelectsearchajax{
      * script row click
      */
     $script = "$('#modal_table_[id] tbody').on( 'click', 'tr', function (a) {  document.getElementById('[id]').value=datatable_modal_table_[id].row( this ).data().[row_value]; document.getElementById('text_[id]').innerHTML=datatable_modal_table_[id].row( this ).data().[row_text]; $('#modal_[id]').modal('hide');  } );";
-    $script = str_replace('[id]', $data->get('id'), $script);
-    $script = str_replace('[row_value]', $data->get('row/value'), $script);
-    $script = str_replace('[row_text]', $data->get('row/text'), $script);
+    $script = wfPhpfunc::str_replace('[id]', $data->get('id'), $script);
+    $script = wfPhpfunc::str_replace('[row_value]', $data->get('row/value'), $script);
+    $script = wfPhpfunc::str_replace('[row_text]', $data->get('row/text'), $script);
     $data->set('script_row_click', $script);
     /**
      * form
